@@ -36,6 +36,7 @@ Recent versions of MacOS may encounter issues with CMake. The following seems to
 (Found in [this issue](https://gist.github.com/scivision/d69faebbc56da9714798087b56de925a))
 
 ```
+export CC=/opt/homebrew/bin/gcc-14
 export CXX=/opt/homebrew/bin/g++-14
 export SDKROOT=/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/
 ```
